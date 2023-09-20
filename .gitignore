@@ -1,0 +1,43 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+
+# Terraform files
+.terraform
+.terraform.lock.hcl
+
+# .env
+.env.dev
+.env.local
+
+#Archy results 
+components/genesys-email-flow/modules/email_flow/scripts/output/results.json
